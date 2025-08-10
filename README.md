@@ -184,11 +184,11 @@ Validation was performed using stratified splitting and nested cross-validation.
 
 ## Prediction of Specific Diseases
 
-The top 50 most prevalent diseases among patients were selected for analysis.
+The top 50 most prevalent diseases among patients were selected for future analysis and then we chose the best 18 in them.
 
 An experiment was conducted using the following models: LogisticRegression (One-vs-Rest), multinomial LogisticRegression, and RandomForest.
 
-Subsequently, a CatBoostClassifier was trained on each subset of 6 diseases from the selected 50. Performance metrics were computed and compared, and confusion matrices were examined. Diseases that demonstrated the clearest separation were selected. The final model is presented for this subset of diseases.
+Subsequently, a CatBoostClassifier was trained on each subset of 6 diseases from the selected 50. Performance metrics were computed and compared, and confusion matrices were examined. 18 diseases that demonstrated the clearest separation were selected. The final model is presented for this subset of diseases.
 
 Differential diagnosis of hematological disorders is challenging due to the similarity of their clinical presentations. Our model enables highly accurate prediction of specific pathologies, aiding in the identification of patients requiring urgent care and narrowing the differential diagnostic workup.
 
