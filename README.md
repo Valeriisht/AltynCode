@@ -201,8 +201,10 @@ Differential diagnosis of hematological disorders is challenging due to the simi
 
 - CatBoost with params on test:
 
-  Accuracy: 0.673684
-  F1-macro: 0.668
+- Accuracy: 0.673684
+- F1-macro: 0.668
+
+- The model in ```best_catboost_model.cbm```
 
 # References
 1) Ning, W., Wang, Z., Gu, Y. et al. Machine learning models based on routine blood and biochemical test data for diagnosis of neurological diseases. Sci Rep 15, 27857 (2025). https://doi.org/10.1038/s41598-025-09439-4
