@@ -205,5 +205,5 @@ Differential diagnosis of hematological disorders is challenging due to the simi
 - Natalia Kondratiuk
 - Anna Andreeva
 - Dmitry Bessmertnyy
-- Olya Piskunova 
+- Olga Piskunova 
 
