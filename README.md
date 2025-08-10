@@ -1,10 +1,12 @@
+# Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data
+
 [![conda package](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yml/badge.svg)](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yaml?label=build)
 
 <img align=right src="https://spaces-cdn.clipsafari.com/0sy12l8yao55bk3gzl4ad1ox6fs5" alt="# Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data" width="100"/>
 
 Public Health Hackathon 2025 
 
-
+# **About** 
 
 The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results. Data were obtained from 38,041 patients of the Federal State Budgetary Institution "National Medical Research Centre of Hematology" under the Ministry of Health of the Russian Federation, including complete blood count (CBC) and biochemical blood test results.
 
