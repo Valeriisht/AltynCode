@@ -124,7 +124,7 @@ conda env create -f enviromental.yaml
 conda activate enviroment
 ```
 
-# Results (Models)
+# Results
 
 Workflow 
 
