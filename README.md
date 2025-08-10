@@ -197,6 +197,13 @@ Subsequently, a CatBoostClassifier was trained on each subset of 6 diseases from
 
 Differential diagnosis of hematological disorders is challenging due to the similarity of their clinical presentations. Our model enables highly accurate prediction of specific pathologies, aiding in the identification of patients requiring urgent care and narrowing the differential diagnostic workup.
 
+## The Best Model 
+
+- CatBoost with params on test:
+
+  Accuracy: 0.673684
+  F1-macro: 0.668
+
 # References
 1) Ning, W., Wang, Z., Gu, Y. et al. Machine learning models based on routine blood and biochemical test data for diagnosis of neurological diseases. Sci Rep 15, 27857 (2025). https://doi.org/10.1038/s41598-025-09439-4
 2) Palak, Ishdeep Singla, Drishti Malhotra, Karan Kumar, "Machine Learning-Driven Insights into Autoimmune Disease Prediction and Patient Outcomes", 2024 International Conference on Cybernation and Computation (CYBERCOM), pp.466-470, 2024.
