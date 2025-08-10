@@ -1,5 +1,3 @@
-<img width="840" height="859" alt="image" src="https://github.com/user-attachments/assets/a3dd0503-d0db-44c4-a6b0-a6ed17007900" /># Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data
-
 [![conda package](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yml/badge.svg)](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yaml?label=build)
 
 Public Health Hackathon 2025 
