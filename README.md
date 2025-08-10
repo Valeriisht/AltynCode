@@ -45,6 +45,7 @@ Additionally, technical data cleaning was performed (see details below).
 
 # **Pipeline** 
 
+ ![image](img/pipeline.jpeg)
 
 # **Data Preprocessing**
 
