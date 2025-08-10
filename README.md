@@ -43,7 +43,7 @@ However, several limitations were also identified:
 
 Additionally, technical data cleaning was performed (see details below).
 
-# **Pipline** 
+# **Pipeline** 
 
 
 # **Data Preprocessing**
@@ -123,9 +123,7 @@ conda env create -f enviromental.yaml
 conda activate enviroment
 ```
 
-# Results
-
-## Models
+# Results (Models)
 
 ## Prediction of Disease Groups
 
