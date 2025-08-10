@@ -4,11 +4,22 @@
 
 [![conda package](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yml/badge.svg)](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yaml?label=build)
 
-Public Health Hackathon 2025 
+Public Health Hackathon 2025
 
-## **Aim**
+# **Aim**
 
-- The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results. 
+- The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results.
+
+## Contents
+- [About](#About)
+- [Pipeline](#Pipeline)
+- [Data Preprocessing](#Data Preprocessing)
+- [Methods](#Methods)
+- [System requirements](#System-requirements)
+- [Installation](#Installation)
+- [Results](#Results)
+- [References](#References)
+- [Authors](#Authors)
 
 # **About** 
 
@@ -32,6 +43,9 @@ However, several limitations were also identified:
 
 Additionally, technical data cleaning was performed (see details below).
 
+# **Pipline** 
+
+
 # **Data Preprocessing**
 
 During initial data analysis, hematological and oncohematological diseases were selected; all other diagnoses were grouped into an "Other" category. Diseases were further grouped based on clinical similarity according to the ICD-10 classification. Group selection was also guided by the number of individuals represented with each condition. The following disease groups were selected: 'D69', 'D47', 'C92', 'C91', 'C90', 'C83', 'D46', 'D50', 'D70', 'D75', 'C81', 'C85', 'C82', 'D45', 'D59', 'D72', 'D61'.
@@ -43,9 +57,54 @@ CBC and biochemical test results were selected according to the following criter
 - If the dates differed by less than one day, both results were also included.  
 - If the difference between the earliest CBC and biochemical test dates exceeded one day, it was assumed that the patient might have already started treatment; therefore, only the earlier of the two tests was retained.
 
-# Models
+
+# **Methods**
+
+The following tools are used in this project: 
+
+### Core Frameworks
+- **Python**
+ 
+
+# System requirements
+
+- The minimum requirements are as follows:
+
+### Device requirements
+
+- **Operation memory** - at least 4 GB
+- **Processor** - x86-64 architecture,  4+ cores recommended
+
+### Software requirements
+
+- **Operation system**
+  - Linux: Ubuntu 20.04+
+  - Windows: 10/11 (64-bit)
+  - macOS: 11.0+ (Big Sur)
+
+### Recomended 
+
+- SSD-disk
+- 4+ core processor
+
+
+# Installation
+
+Install with:
+
+```sh
+git clone git@github.com:https://github.com/Valeriisht/AltynCode
+conda env create -f enviromental.yaml
+conda activate enviroment
+```
+
+# Results
+
+## Models
 
 ## Prediction of Disease Groups
+
+
 
 ## Prediction of Specific Diseases
 
