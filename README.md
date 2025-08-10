@@ -1,8 +1,8 @@
 # Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data
 
-[![conda package](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yml/badge.svg)](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yaml?label=build)
-
 <img align=right src="https://spaces-cdn.clipsafari.com/0sy12l8yao55bk3gzl4ad1ox6fs5" alt="# Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data" width="100"/>
+
+[![conda package](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yml/badge.svg)](https://github.com/Valeriisht/eRNAi_project/actions/workflows/conda.yaml?label=build)
 
 Public Health Hackathon 2025 
 
