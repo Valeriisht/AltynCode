@@ -126,6 +126,10 @@ conda activate enviroment
 
 # Results (Models)
 
+Workflow 
+
+![image](img/воркфло.png)
+
 ## Prediction of Disease Groups
 
 We trained machine-learning models on generalized diagnoses grouped by clinical and laboratory manifestations of diseases (ICD-10). Eighteen classes were identified.
