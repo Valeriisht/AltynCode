@@ -2,7 +2,7 @@
 
 Public Health Hackathon 2025 
 
-<img align=right src="https://toppng.com/uploads/preview/chinese-dragon-gold-11549476245piiraatbja.png" alt="# Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data" width="200"/>
+<img align=right src="https://spaces-cdn.clipsafari.com/0sy12l8yao55bk3gzl4ad1ox6fs5" alt="# Early Detection of Blood Disorders Predictive Modeling from Lab and Outpatient Data" width="100"/>
 
 The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results. Data were obtained from 38,041 patients of the Federal State Budgetary Institution "National Medical Research Centre of Hematology" under the Ministry of Health of the Russian Federation, including complete blood count (CBC) and biochemical blood test results.
 
