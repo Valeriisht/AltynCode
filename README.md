@@ -6,9 +6,13 @@
 
 Public Health Hackathon 2025 
 
+## **Aim**
+
+- The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results. 
+
 # **About** 
 
-The task involved developing a model capable of predicting hematological diagnoses at early stages using patients’ laboratory test results. Data were obtained from 38,041 patients of the Federal State Budgetary Institution "National Medical Research Centre of Hematology" under the Ministry of Health of the Russian Federation, including complete blood count (CBC) and biochemical blood test results.
+Data were obtained from 38,041 patients of the Federal State Budgetary Institution "National Medical Research Centre of Hematology" under the Ministry of Health of the Russian Federation, including complete blood count (CBC) and biochemical blood test results.
 
 It is expected that further application of this model in screening within primary healthcare settings will help raise clinical suspicion of hematological disorders, enabling timely patient referral for differential diagnosis.
 
