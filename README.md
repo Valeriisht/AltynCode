@@ -129,7 +129,60 @@ conda activate enviroment
 
 ## Prediction of Disease Groups
 
+We trained machine-learning models on generalized diagnoses grouped by clinical and laboratory manifestations of diseases (ICD-10). Eighteen classes were identified.
 
+```
+According to the label mapping:
+C81: 0
+C82: 1
+C83: 2
+C85: 3
+C90: 4
+C91: 5
+C92: 6
+D45: 7
+D46: 8
+D47: 9
+D50: 10
+D59: 11
+D61: 12
+D69: 13
+D70: 14
+D72: 15
+D75: 16
+healthy: 17
+other: 18
+```
+
+The main focus was on models with native data support (CatBoost, LightGBM, XGBoost) capable of effectively working with raw laboratory indicators, including missing values and categorical features.
+
+For comparison, classical algorithms (Random Forest, logistic regression, GradientBoosting.) were also used after preliminary data processing.
+
+### Model Selection Framework
+
+#### Native Support Models (Handling Raw  Data)
+- **CatBoost**
+  - Automatic categorical feature handling
+  - Built-in missing value support
+  - Ordered boosting for medical data robustness
+
+- **LightGBM**
+  - Gradient-based One-Side Sampling (GOSS)
+  - Exclusive Feature Bundling (EFB) for high-dimensional lab data
+
+- **XGBoost**
+  - Customizable missing value imputation
+  - Strict regularization for medical applications
+
+#### Complete Data Models (After Advanced Imputation)
+- **Random Forest**
+- **Gradient Boosting**
+- **Logistic Regression**
+- **KNN**
+
+The optimal model was selected based on a combination of statistical metrics and clinical interpretability of the results, using SHAP analysis methods.
+
+Validation was performed using stratified splitting and nested cross-validation.
 
 ## Prediction of Specific Diseases
 
@@ -140,3 +193,14 @@ An experiment was conducted using the following models: LogisticRegression (One-
 Subsequently, a CatBoostClassifier was trained on each subset of 6 diseases from the selected 50. Performance metrics were computed and compared, and confusion matrices were examined. Diseases that demonstrated the clearest separation were selected. The final model is presented for this subset of diseases.
 
 Differential diagnosis of hematological disorders is challenging due to the similarity of their clinical presentations. Our model enables highly accurate prediction of specific pathologies, aiding in the identification of patients requiring urgent care and narrowing the differential diagnostic workup.
+
+# References
+1) Ning, W., Wang, Z., Gu, Y. et al. Machine learning models based on routine blood and biochemical test data for diagnosis of neurological diseases. Sci Rep 15, 27857 (2025). https://doi.org/10.1038/s41598-025-09439-4
+2) Palak, Ishdeep Singla, Drishti Malhotra, Karan Kumar, "Machine Learning-Driven Insights into Autoimmune Disease Prediction and Patient Outcomes", 2024 International Conference on Cybernation and Computation (CYBERCOM), pp.466-470, 2024.
+
+# Authors
+
+Stepan Epifantsev
+Valeria Ishtuganova 
+
+
