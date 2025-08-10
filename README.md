@@ -62,9 +62,34 @@ CBC and biochemical test results were selected according to the following criter
 
 The following tools are used in this project: 
 
-### Core Frameworks
-- **Python**
- 
+### Core Frameworks & Libraries
+- **Python 3.10+** as the primary programming language
+- **Jupyter Notebook** for interactive analysis and documentation
+
+### Machine Learning Ecosystem
+- **Scikit-learn** (v1.2+) for traditional ML models:
+  - Logistic Regression
+  - Random Forest
+  - Gradient Boosting
+- **XGBoost/LightGBM/CatBoost** for advanced boosting algorithms
+- **SHAP** (SHapley Additive exPlanations) for model interpretability
+
+### Data Processing
+- **Pandas** for data manipulation and analysis
+- **NumPy** for numerical computations
+- **SciPy** for statistical operations
+
+### Visualization Tools
+- **Matplotlib** & **Seaborn** for static visualizations
+
+### Optimization & Deployment
+- **Optuna** for hyperparameter tuning
+- **MLflow** for experiment tracking (if applicable)
+- **Pickle/Joblib** for model serialization
+
+### Development Environment
+- **VS Code** with Python extensions
+- **Git** for version control
 
 # System requirements
 
