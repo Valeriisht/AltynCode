@@ -13,7 +13,7 @@ Public Health Hackathon 2025
 ## Contents
 - [About](#About)
 - [Pipeline](#Pipeline)
-- [Data Preprocessing](#Data Preprocessing)
+- [Data-Preprocessing](#Data Preprocessing)
 - [Methods](#Methods)
 - [System requirements](#System-requirements)
 - [Installation](#Installation)
