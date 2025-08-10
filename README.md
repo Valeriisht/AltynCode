@@ -7,10 +7,10 @@ The task involved developing a model capable of predicting hematological diagnos
 It is expected that further application of this model in screening within primary healthcare settings will help raise clinical suspicion of hematological disorders, enabling timely patient referral for differential diagnosis.
 
 Four datasets were provided:
-- Patients  
-- Visits (clinical encounters)  
-- CBC (complete blood count)  
-- Biochemistry (biochemical blood analysis)
+- Пациенты (Patients)  
+- Обращения (Visits)  
+- ОАК (complete blood count)  
+- Биохимия (biochemical blood analysis)
 
 The data exhibited both strengths and limitations from the perspective of data analysis. Among the strengths was the fact that the data were real-world and conditionally labeled—i.e., for each patient (identified by unique patient IDs), information on confirmed diagnoses (within the hematology specialty) was available for every clinical visit.
 
@@ -44,3 +44,5 @@ The top 50 most prevalent diseases among patients were selected for analysis.
 An experiment was conducted using the following models: LogisticRegression (One-vs-Rest), multinomial LogisticRegression, and RandomForest.
 
 Subsequently, a CatBoostClassifier was trained on each subset of 6 diseases from the selected 50. Performance metrics were computed and compared, and confusion matrices were examined. Diseases that demonstrated the clearest separation were selected. The final model is presented for this subset of diseases.
+
+Differential diagnosis of hematological disorders is challenging due to the similarity of their clinical presentations. Our model enables highly accurate prediction of specific pathologies, aiding in the identification of patients requiring urgent care and narrowing the differential diagnostic workup.
